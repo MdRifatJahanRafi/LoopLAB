@@ -1,0 +1,100 @@
+body {
+  background: #333;
+  color: #fff; }
+
+.navbar {
+  border-bottom: 4px solid #008ed6;
+  background: #292b2c;
+  opacity: 0.8; }
+
+#home-section {
+  background: url("../img/home.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 660px; }
+  #home-section .dark-overlay {
+    background: rgba(0, 0, 0, 0.6);
+    min-height: 660px; }
+  #home-section .fa {
+    background: #fff;
+    padding: 5px;
+    color: #008ed6;
+    font-size: 30px;
+    border-radius: 4px; }
+  #home-section .card-form {
+    opacity: 0.9; }
+  #home-section .home-inner {
+    padding-top: 130px;
+    padding-bottom: 30px; }
+
+#explore-head-section .explore-inner {
+  padding-top: 60px;
+  padding-bottom: 50px; }
+
+#explore-body-section {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  #explore-body-section img {
+    height: 100%;
+    width: 100%; }
+  #explore-body-section h3, #explore-body-section p {
+    color: #000; }
+  #explore-body-section .fa {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px; }
+
+#create-head-section .create-inner {
+  padding-top: 60px;
+  padding-bottom: 50px; }
+
+#create-body-section {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  #create-body-section img {
+    height: 100%;
+    width: 100%; }
+  #create-body-section .fa {
+    background: #fff;
+    color: #000;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px; }
+
+#share-head-section .share-inner {
+  padding-top: 60px;
+  padding-bottom: 50px; }
+
+#share-body-section {
+  padding-top: 100px;
+  padding-bottom: 50px; }
+  #share-body-section img {
+    height: 100%;
+    width: 100%; }
+  #share-body-section h3, #share-body-section p {
+    color: #000; }
+  #share-body-section .fa {
+    background: #000;
+    color: #fff;
+    padding: 5px;
+    font-size: 30px;
+    border-radius: 4px; }
+
+@media (min-width: 1200px) {
+  #explore-body-section img {
+    height: 400px;
+    width: 550px; } }
+
+@media (min-width: 1200px) {
+  #create-body-section img {
+    height: 400px;
+    width: 550px; } }
+
+@media (min-width: 1200px) {
+  #share-body-section img {
+    height: 400px;
+    width: 550px; } }
